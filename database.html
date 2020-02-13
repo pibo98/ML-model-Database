@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta description="ML model database">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ML model database</h1>
+        <h2>Home</h2>
+    </header>
+    <span style="font-size:30px;cursor:pointer" onclick="openSidebar()">&#9776</span>
+    <nav class="navigation">
+        <div class="navigation__home"><a href="index.html">Home/About</a></div>
+        <div class="navigation__course_overview"><a href="course_overview.html">Model Overview</a></div>
+    </nav>
+    <article>
+        <section>
+            <h3 id="introduction">Algorithm1</h3>
+            <p>tekst1</p>
+            <p>tekst2</p>
+;        </section>
+    </article>
+
+    <aside>
+        <h2>Announcements</h2>
+        <ul>
+            <li>13-2-2020 11:57 New thread: Created Algorithm 1</li>
+        </ul>
+    </aside>
+
+</body>
+
+<footer>
+ <p>Disclaimer: No rights can be derived from the information provided in this file</p>   
+</footer>
+
+<script>
+function openSidebar() {
+  document.getElementById("SideNav").style.width = "250px";
+}
+
+function closeSidebar() {
+  document.getElementById("SideNav").style.width = "0";
+}
+</script>
+</html>
